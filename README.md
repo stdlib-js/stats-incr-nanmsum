@@ -63,6 +63,11 @@ s = \sum_{i=0}^{W-1} x_i
 ## Usage
 
 ```javascript
+import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-nanmsum/tags). For example,
+
+```javascript
 import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@v0.1.0-deno/mod.js';
 ```
 
@@ -127,7 +132,7 @@ sum = accumulator();
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@v0.1.0-deno/mod.js';
+import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@deno/mod.js';
 
 // Initialize an accumulator:
 var accumulator = incrnanmsum( 5 );
