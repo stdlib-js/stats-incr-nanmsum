@@ -63,7 +63,7 @@ s = \sum_{i=0}^{W-1} x_i
 ## Usage
 
 ```javascript
-import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@esm/index.mjs';
+import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@v0.1.1-esm/index.mjs';
 ```
 
 #### incrnanmsum( window )
@@ -132,7 +132,7 @@ sum = accumulator();
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@esm/index.mjs';
+import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@v0.1.1-esm/index.mjs';
 
 // Initialize an accumulator:
 var accumulator = incrnanmsum( 5 );
