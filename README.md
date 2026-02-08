@@ -63,6 +63,11 @@ s = \sum_{i=0}^{W-1} x_i
 ## Usage
 
 ```javascript
+import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-nanmsum/tags). For example,
+
+```javascript
 import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@v0.1.1-esm/index.mjs';
 ```
 
@@ -132,7 +137,7 @@ sum = accumulator();
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@v0.1.1-esm/index.mjs';
+import incrnanmsum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmsum@esm/index.mjs';
 
 // Initialize an accumulator:
 var accumulator = incrnanmsum( 5 );
